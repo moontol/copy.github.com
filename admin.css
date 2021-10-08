@@ -1,0 +1,76 @@
+body{
+	background-color: grey;
+}
+
+.window-admin .hfont{
+	color: black;
+	-moz-text-shadow: 0 0 10px green;
+	-webkit-text-shadow: 0 0 10px green;
+	text-shadow: 0 0 10px green;
+}
+
+.window-admin{
+	width: 400px;
+	height: 125px;
+	background: #97bde8;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+	-moz-box-shadow: 0 0 10px black;
+	-webkit-box-shadow:  0 0 10px black;
+	box-shadow: 0 0 10px black;
+}
+
+
+.window-admin .kotak-kecil{
+	color: yellow;
+	background-color: black;
+	font-style: oblique;
+	font-size: 12px;
+	line-height: 40px;
+	opacity: 80%;
+	-moz-box-shadow: 0 0 5px black;
+	-webkit-box-shadow:  0 0 5px black;
+	box-shadow: 0 0 5px black;
+	border-radius: 3px;
+	margin: 8px auto;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.window-admin p{
+	margin: 30px 0 0 0;
+	color: black;
+}
+
+
+@media screen and (max-width:  411px){
+	.window-admin{
+		width: 225px;
+		height: 140px;
+	}
+	.close-button{
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	border-top: 15px;
+	border-radius: 100%;
+	}
+
+}
+
+
+@media screen and (min-width: 412px){
+	.window-admin{
+		width: 320px;
+		height: 160px;
+	}
+	.close-button{
+		height: 27px;
+		width: 27px;
+		box-shadow: black;
+		line-height: 25px;
+	}
+}

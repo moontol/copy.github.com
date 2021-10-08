@@ -1,0 +1,150 @@
+
+#popup,#option,#option_,#nfd,#notfound{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, .7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+
+.window{
+	width: 400px;
+	height: 125px;
+	background: #97bde8;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+	-moz-box-shadow: 0 0 10px #c4c4c4;
+	-webkit-box-shadow:  0 0 10px #c4c4c4;
+	box-shadow: 0 0 10px #c4c4c4;
+}
+
+.window input{
+	border-radius: 5px;
+	background-color: black;
+	opacity: 80%;
+	color: white;
+	text-decoration-color: white;
+	font: sans-serif;
+}
+
+.window .admin{
+	color: yellow;
+	background-color: black;
+	font-style: oblique;
+	font-size: 12px;
+	line-height: 40px;
+	box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.08);
+	border-radius: 3px;
+	margin: 8px auto;
+	text-decoration: none;
+	box-sizing: border-box;
+
+}
+
+.window .kotak-kecil{
+	color: yellow;
+	background-color: black;
+	font-style: oblique;
+	font-size: 12px;
+	line-height: 40px;
+	border-radius: 3px;
+	margin: 8px auto;
+	text-decoration: none;
+	box-sizing: border-box;
+	opacity: 80%;
+	-moz-box-shadow: 0 0 5px black;
+	-webkit-box-shadow:  0 0 5px black;
+	box-shadow: 0 0 5px black;
+
+}
+
+
+.window p{
+	margin: 30px 0 0 0;
+	color: black;
+}
+
+.window .h{
+	color: black;
+}
+
+.close-button{
+	width: 30px;
+	height: 30px;
+	line-height: 23px;
+	background-color: white;
+	border-radius: 50%;
+	border: 1.5px solid white;
+	display: block;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+#popup:target{
+	visibility: visible;
+}
+
+#option:target{
+	visibility: visible;
+}
+
+#option_:target{
+	visibility: visible;
+}
+
+#nfd:target{
+	visibility: visible;
+}
+
+#notfound:target{
+	visibility: visible;
+}
+.window .getkode{
+	width: 30px;
+	height: 18px;
+	text-decoration: none;
+	padding: 4px 8px;
+	font-weight: normal;
+	color: #7b9d62;
+	background-color: #d6f0c3;
+}
+
+@media screen and (max-width:  411px){
+	.window{
+		width: 225px;
+		height: 140px;
+	}
+	.close-button{
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	border-top: 15px;
+	border-radius: 100%;
+	}
+
+}
+
+@media screen and (min-width: 412px){
+	.window{
+		width: 320px;
+		height: 140px;
+	}
+	.close-button{
+		height: 27px;
+		width: 27px;
+		box-shadow: black;
+		line-height: 25px;
+	}
+}
+
+
